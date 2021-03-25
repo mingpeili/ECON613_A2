@@ -444,10 +444,10 @@ beta_f_rest=beta_f[-c(9,18,27,36,45,54)]
 mtt=-2*(-like_fun_xr(beta_f_rest,datw)+like_fun_xr(beta_r,datw))
 mtt
 qchisq(.95, df=length(beta_r))
+qchisq(.99, df=length(beta_r))
 
 
-
-
+#IIA violated at a confidence level 99%
 
 
 
